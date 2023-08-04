@@ -26,6 +26,12 @@
     font-weight: 500;
     color: rgb(0, 0, 0);
     padding: 20px;
+    transition: 0.1s;
+}
+
+.link-to-recipe:hover {
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(100, 100, 100, 0.75);
 }
 
 .link-to-recipe img {
