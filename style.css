@@ -53,16 +53,15 @@
     gap: 10px;
 }
 
-.recipe-description {
-    width: 500px;
-}
-
+.recipe-description,
 .recipe-cooking {
     width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .recipe-description img {
-    max-width: 470px;
+    max-width: 480px;
 }
 
 .recipe-description img,
