@@ -45,3 +45,42 @@
     border-top: 1px solid rgba(100, 100, 100, 0.25);
     margin-top: 10px;
 }
+
+.recipe-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.recipe-description {
+    width: 500px;
+}
+
+.recipe-cooking {
+    width: 500px;
+}
+
+.recipe-description img {
+    max-width: 470px;
+}
+
+.recipe-description img,
+.recipe-description h2,
+.recipe-cooking h2,
+.recipe-cooking ul {
+    margin-bottom: 10px;
+}
+
+li p {
+    display: inline;
+}
+
+.recipe-cooking ul,
+.recipe-cooking ol {
+    list-style-position: inside;
+}
+
+.recipe-cooking ul {
+    list-style-type: "\2022";
+}
